@@ -5,16 +5,24 @@ package Package1;
  * @author Yeiner Hidalgo Molina
  */
 public class BankAccount {
-    //Atributos
+    /**
+     * Atributos de la clase BankAccount
+     */
     private int accountNumber;
     protected boolean activated;
-    //Metodos
-
+    /**
+     * Metodo constructor de la clase BankAccount
+     * @param accountNumber
+     * @param activated 
+     */
     public BankAccount(int accountNumber, boolean activated) {
         this.accountNumber = accountNumber;
         this.activated = activated;
     }
-
+    /**
+     * Modifica el parametro accounNumber
+     * @return retorna un int de accounNumber
+     */
     public int getAccountNumber() {
         return accountNumber;
     }
@@ -25,8 +33,11 @@ public class BankAccount {
     public void setAccountNumber(int accountNumber) {
         this.accountNumber = accountNumber;
     }
-
-    public boolean isActivated() {
+    /**
+     * Modifica el parametro activated
+     * @return retorna un boolean de activated
+     */
+    public boolean getActivated() {
         return activated;
     }
     /**
