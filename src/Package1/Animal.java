@@ -7,15 +7,24 @@ package Package1;
 import java.util.ArrayList;
 
 public class Animal {
-    //Atributos
+    /**
+     * Atributos de la clase Animal
+     */
     public ArrayList<String> colors;
     private String foodType;
     public String sound;
     public float hight;
     public float weight;
     protected ArrayList<String> reproductionType ;
-    //Metodos
-
+    /**
+     * Metodo constructor de la clase Animal
+     * @param colors primer para metro.
+     * @param foodType segundo parametro.
+     * @param sound tercer parametro.
+     * @param hight cuarto parametro.
+     * @param weight quinto parametro.
+     * @param reproductionType sexto parametro.
+     */
     public Animal(ArrayList<String> colors, String foodType, String sound, float hight, float weight, ArrayList<String> reproductionType) {
         this.colors = colors;
         this.foodType = foodType;
@@ -24,7 +33,10 @@ public class Animal {
         this.weight = weight;
         this.reproductionType = reproductionType;
     }
-
+    /**
+     * Modifica el parametro colors
+     * @return retorna un ArrayList de colors
+     */
     public ArrayList<String> getColors() {
         return colors;
     }
@@ -35,7 +47,10 @@ public class Animal {
     public void setColors(ArrayList<String> colors) {
         this.colors = colors;
     }
-
+    /**
+     * Modifica el parametro foodType
+     * @return retorna un String de foodType
+     */
     public String getFoodType() {
         return foodType;
     }
@@ -46,7 +61,10 @@ public class Animal {
     public void setFoodType(String foodType) {
         this.foodType = foodType;
     }
-
+    /**
+     * Modifica el parametro sound
+     * @return retorna un String de sound
+     */
     public String getSound() {
         return sound;
     }
@@ -57,7 +75,10 @@ public class Animal {
     public void setSound(String sound) {
         this.sound = sound;
     }
-
+    /**
+     * Modifica el parametro hight
+     * @return retorna un float de hight
+     */
     public float getHight() {
         return hight;
     }
@@ -68,7 +89,10 @@ public class Animal {
     public void setHight(float hight) {
         this.hight = hight;
     }
-
+    /**
+     * Modifica el parametro weight
+     * @return retorna un float de weight
+     */
     public float getWeight() {
         return weight;
     }
@@ -79,7 +103,10 @@ public class Animal {
     public void setWeight(float weight) {
         this.weight = weight;
     }
-
+    /**
+     * Modifica el parametro reproductionType
+     * @return retorna un ArrayList de reproductionType
+     */
     public ArrayList<String> getReproductionType() {
         return reproductionType;
     }
