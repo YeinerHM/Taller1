@@ -7,18 +7,27 @@ package Package1;
 import java.util.ArrayList;
 
 public class Career {
-    //Atributos
+    /**
+     * Atributos de la clase Career
+     */
     public ArrayList<String> programs;
     private String faculty;
     protected int studentNumber;
-    //Metodos
-
+    /**
+     * Metodo constructor de la clase career
+     * @param programs primer parametro.
+     * @param faculty segundo parametro.
+     * @param studentNumber tercer parametro.
+     */
     public Career(ArrayList<String> programs, String faculty, int studentNumber) {
         this.programs = programs;
         this.faculty = faculty;
         this.studentNumber = studentNumber;
     }
-
+    /**
+     * Modifica el parametro programs
+     * @return retorna un ArrayList de programs
+     */
     public ArrayList<String> getPrograms() {
         return programs;
     }
@@ -29,7 +38,10 @@ public class Career {
     public void setPrograms(ArrayList<String> programs) {
         this.programs = programs;
     }
-
+    /**
+     * Modifica el parametro faculty
+     * @return retorna un String de faculty
+     */
     public String getFaculty() {
         return faculty;
     }
@@ -40,7 +52,10 @@ public class Career {
     public void setFaculty(String faculty) {
         this.faculty = faculty;
     }
-
+    /**
+     * Modifica el parametro studentNumber
+     * @return retorna un int de studentNumber
+     */
     public int getStudentNumber() {
         return studentNumber;
     }
